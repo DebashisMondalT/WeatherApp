@@ -192,13 +192,13 @@ function showNotFound() {
     notFoundContainer.classList.add('not-found-container');
     
     const notFoundImage = document.createElement('img');
-    notFoundImage.src = './assets/not-found.png'; // Path to your not-found image
+    notFoundImage.src = './assets/not-found.png'; 
     notFoundImage.alt = 'Not Found';
-    notFoundImage.width = 150; // Adjust as needed
-    notFoundImage.height =150; // Adjust as needed
+    notFoundImage.width = 150; 
+    notFoundImage.height =150; 
 
     notFoundContainer.appendChild(notFoundImage);
-    userInfoContainer.innerHTML = ''; // Clear any previous content
+    userInfoContainer.innerHTML = ''; 
     userInfoContainer.appendChild(notFoundContainer);
 
     loadingScreen.classList.remove("active");
